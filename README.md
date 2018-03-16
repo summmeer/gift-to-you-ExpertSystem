@@ -11,14 +11,13 @@ IF *E*  THEN *H*  (CF(*H*, *E*))
 
 CF(*H*, *E*)为可信度因子，当结论不确定时，有合成算法。
 
-![formula](https://raw.githubusercontent.com/summmeer/gift-to-you-ExpertSystem/master/pic_for_md/formula.PNG){:height="50%" width="50%"}
+<img src="https://raw.githubusercontent.com/summmeer/gift-to-you-ExpertSystem/master/pic_for_md/formula.PNG" width="50%" height="50%">
 
 ### 实现
 
 - 界面：wxPython（程序入口：GUI.py）
 
-  ![show](https://raw.githubusercontent.com/summmeer/gift-to-you-ExpertSystem/master/pic_for_md/show.png){:height="50%" width="50%"}
-
+<img src="https://raw.githubusercontent.com/summmeer/gift-to-you-ExpertSystem/master/pic_for_md/show.png" height="50%" width="50%">
 - 数据库：MySQL（首次运行 Database.py 写入规则和对应的置信度，之后的步骤直接对该表进行访问，不需要重新写入规则）
 
 - 推理机：置信度计算
